@@ -84,7 +84,7 @@ The program is split into small functions that each do one job:
 |---|---|
 | `init_board`|Sets all 9 squares to empty |
 | `display_board`| Prints the board, showing the number of each empty square |
-| `is_winner` | Returns 'true' if a player has three in a row |
+| `is_winner` | Returns `true` if a player has three in a row |
 | `other_player` | Returns the opposite player/symbol |
 | `get_human_move` | Asks until the user enters a valid empty square |
 | `get_computer_move` | Picks a random empty square |
